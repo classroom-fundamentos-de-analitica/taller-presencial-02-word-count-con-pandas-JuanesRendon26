@@ -19,7 +19,7 @@ def load_input(input_directory):
 
     
     dataframe = pd.concat(dataframes).reset_index(drop = True)
-    return (dataframe)
+    return(dataframe)
 
 
 def clean_text(dataframe):
